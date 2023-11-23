@@ -1,3 +1,3 @@
 # Hackathon Christmas tales calendar
 
-Calendrier des contes de noel 
+Calendrier des contes de nöel 
