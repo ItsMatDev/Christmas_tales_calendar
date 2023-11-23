@@ -15,15 +15,12 @@ function Home() {
       <div className="HomeTitle">
         <HomeTitle />
       </div>
-      ;
       <div className="CountdownTimer">
         <CountdownTimer />
       </div>
-      ;
       <div className="Presentation">
         <Presentation />
       </div>
-      ;
       <div className="HouseHome">
         <HouseHome />
       </div>
