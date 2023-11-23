@@ -8,20 +8,24 @@ import Smoke from "../../components/Smoke/Smoke";
 
 function Home() {
   return (
-    <main className="homeMain">
-      <div className="HomeTitle">
-        <HomeTitle />
-      </div>
-      <div className="CountdownTimer">
-        <CountdownTimer />
-      </div>
-      <div className="Presentation">
-        <Presentation />
-      </div>
-      <div className="HouseHome">
-        <HouseHome />
-      </div>
-    </main>
+    <>
+      <Smoke />
+      <Snow />
+      <main className="homeMain">
+        <div className="HomeTitle">
+          <HomeTitle />
+        </div>
+        <div className="CountdownTimer">
+          <CountdownTimer />
+        </div>
+        <div className="Presentation">
+          <Presentation />
+        </div>
+        <div className="HouseHome">
+          <HouseHome />
+        </div>
+      </main>
+    </>
   );
 }
 export default Home;
