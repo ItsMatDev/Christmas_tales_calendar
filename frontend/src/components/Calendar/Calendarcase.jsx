@@ -29,7 +29,10 @@ function Calendarcase() {
 
           return (
             <>
-              <section key={calendarcas.id} className={calendarcas.Name} style={{ order: indiceAleatoire }}>
+              <section
+                key={calendarcas.id}
+                className={calendarcas.Name}
+                style={{ order: indiceAleatoire }}>
                 <Link to={`/Tales/${calendarcas.id}`}>
                   <p>{calendarcas.id}</p>
                 </Link>
