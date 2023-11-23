@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import Text from "../../components/text/Text";
+import PictureTales from "../../components/picturetales/PictureTales";
 import "./Tales.scss";
 
 function Tales() {
@@ -8,16 +9,22 @@ function Tales() {
   const [Calendarcase, setCalendarcase] = useState();
 
   useEffect(() => {
-    fetch("http://localhost:5000/noel")
+    fetch("http://localhost:5010/tales")
       .then((response) => response.json())
       .then((data) => setCalendarcase(data));
   }, []);
 
-  const calendarc = (Calendarcase || []).find((el) => el.id === parseInt(id, 10));
+  const calendarc = (Calendarcase || []).find(
+    (el) => el.id === parseInt(id, 10)
+  );
 
   return (
     <main className="tales__page">
       <Text />
+      <PictureTales />
+      <Link to="/Calendar">
+        <button className="returnToMain">X</button>
+      </Link>
     </main>
   );
 }
