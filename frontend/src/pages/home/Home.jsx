@@ -21,7 +21,7 @@ function Home() {
       <div className="HouseHome">
         <HouseHome />
       </div>
-      ;
+      <audio autoPlay={true} controls src="/src/sound/musicnoel.mp3"></audio>;
     </main>
   );
 }
