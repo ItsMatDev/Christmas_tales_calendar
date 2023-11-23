@@ -10,19 +10,21 @@ app.use(
 
 const port = 5000;
 
-app.listen(port, () => {
-	console.info(`Server is listening on port ${port}`);
-}).on("error", (err) => {
-	console.error("Error:", err.message);
-});
+app
+  .listen(port, () => {
+    console.info(`Server is listening on port ${port}`);
+  })
+  .on("error", (err) => {
+    console.error("Error:", err.message);
+  });
 
 app.get("/", (req, res) => {
-	res.send("Welcome to Express");
+  res.send("Welcome to Express");
 });
 
-const experiencePro = require("./data.json");
+const tales = require("./data.json");
 
-const getexp = (req, res) => {
-	res.status(200).json(experiencePro);
+const talesData = (req, res) => {
+  res.status(200).json(tales);
 };
-app.get("/noel", getexp);
+app.get("/tales", talesData);
