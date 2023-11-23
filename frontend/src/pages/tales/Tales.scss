@@ -1,32 +1,39 @@
 body {
-  margin: 0;
+	margin: 0;
 }
 
 @keyframes traineau {
 	0% {
-		transform: translate(-50vw, 0vw);
+		transform: translate(-30vw, 0vw);
 	}
 	100% {
-		transform: translate(120vw, 0);
+		transform: translate(100vw, 0);
 	}
 }
 
 @keyframes titre {
 	0% {
-		transform: translate(-50vw, 50vh);
+		transform: translate(-110vw, 0vh);
 	}
 	100% {
-		transform: translate(20vw, 50vh);
+		transform: translate(0vw, 0vh);
 	}
 }
 
-
+img {
+	animation: traineau linear forwards 1.2s;
+	position: absolute;
+	height: 167vh;
+	z-index: 80;
+	top: -28vh;
+}
 
 .tales__page {
-  h1 {
-    margin: 0;
-  }
-  background-image: url("../../assets/vieuxlivre.jpg");
-  height: 100vh;
-  background-size: 100% 100%;
+	animation: titre linear forwards 1s;
+	h1 {
+		margin: 0;
+	}
+	background-image: url("../../assets/vieuxlivre.jpg");
+	height: 100vh;
+	background-size: 100% 100%;
 }
