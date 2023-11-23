@@ -18,7 +18,7 @@ function Tales() {
   return (
     <main className="tales__page">
       <Text />
-      <Link to="/">
+      <Link to="/Calendar">
         <button className="returnToMain">X</button>
       </Link>
     </main>
