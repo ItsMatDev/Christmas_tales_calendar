@@ -4,6 +4,7 @@ import Presentation from "../../components/Presentation/Presentation";
 import HouseHome from "../../components/HouseHome/HouseHome";
 import HomeTitle from "../../components/HomeTitle/HomeTitle";
 function Home() {
+
   return (
     <main className="homeMain">
       <div className="HomeTitle">
