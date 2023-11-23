@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 app.use(
 	cors({
-		origin: ["http://localhost:5173/"],
+		origin: ["http://localhost:5173"],
 	})
 );
 
@@ -19,12 +19,6 @@ app.listen(port, () => {
 app.get("/", (req, res) => {
 	res.send("Welcome to Express");
 });
-
-// const welcomeName = (req, res) => {
-// 	res.send(`Welcome ${req.params.name}`);
-// };
-
-// app.get("/users/:name", welcomeName);
 
 const experiencePro = require("./data.json");
 
