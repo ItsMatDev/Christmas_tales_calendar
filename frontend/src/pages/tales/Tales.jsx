@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import Text from "../../components/text/Text";
 import PictureTales from "../../components/picturetales/PictureTales";
 import "./Tales.scss";
@@ -22,6 +22,9 @@ function Tales() {
     <main className="tales__page">
       <Text />
       <PictureTales />
+      <Link to="/Calendar">
+        <button className="returnToMain">X</button>
+      </Link>
     </main>
   );
 }

@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .homeMain {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
@@ -8,11 +11,18 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100vh;
+  gap:1rem;
   }
-  .div1 { grid-area: 2 / 4 / 3 / 7; }
-  .div2 { grid-area: 4 / 2 / 6 / 5; }
-  .div3 { grid-area: 7 / 2 / 9 / 5; }
-  .div4 { gh1 {
-  color: white;
-}
+
+  .HomeTitle {
+    grid-area: 1 / 1 / 3 / 10;
+  }
+  .CountdownTimer {
+    grid-area: 4 / 2 / 6 / 5;
+  }
+  .Presentation {
+    grid-area: 7 / 2 / 9 / 5;
+  }
+  .HouseHome {
+    grid-area: 4 / 6 / 9 / 9;
   }
