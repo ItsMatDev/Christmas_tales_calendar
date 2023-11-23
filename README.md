@@ -1,1 +1,3 @@
-# Christmas_tales_calendar
+# Hackathon Christmas tales calendar
+
+Calendrier des contes de noel 
