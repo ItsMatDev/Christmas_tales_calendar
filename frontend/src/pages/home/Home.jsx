@@ -8,7 +8,7 @@ import Smoke from "../../components/Smoke/Smoke";
 
 function Home() {
   return (
-     <>
+    <>
       <Smoke />
       <Snow />
     <main className="homeMain">
