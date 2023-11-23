@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+@keyframes traineau {
+	0% {
+		transform: translate(-50vw, 0vw);
+	}
+	100% {
+		transform: translate(120vw, 0);
+	}
+}
+
+@keyframes titre {
+	0% {
+		transform: translate(-50vw, 50vh);
+	}
+	100% {
+		transform: translate(20vw, 50vh);
+	}
+}
+
+
+
+.tales__page {
+  h1 {
+    margin: 0;
+  }
+  background-image: url("../../assets/vieuxlivre.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+}
