@@ -1,4 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/christmas-story');
+
+ $font-title: 'Christmas Story', sans-serif;
+
+
 .mainTitle {
+  font-family: $font-title;
   display: flex;
   flex-direction: row;
   justify-content:center;

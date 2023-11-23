@@ -5,18 +5,8 @@ import HouseHome from "../../components/HouseHome/HouseHome";
 import HomeTitle from "../../components/HomeTitle/HomeTitle";
 import Snow from "../../components/Snow";
 import Smoke from "../../components/Smoke/Smoke";
-import { useEffect } from "react";
 
 function Home() {
-  let audio = new Audio("/sound/musicnoel.mp3");
-
-  const start = () => {
-    audio.play;
-  }
-
-  useEffect(() => {
-    start();
-  }, );
 
   return (
      <>
