@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Calendar from "./pages/Calendar";
-import Tales from "./pages/Tales";
+import Home from "./pages/home/Home";
+import Calendar from "./pages/calendar/Calendar";
+import Tales from "./pages/tales/Tales";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     element: <Calendar />,
   },
   {
-    path: "/Tales",
+    path: "/Tales/:id",
     element: <Tales />,
   },
 ]);
