@@ -37,13 +37,10 @@ const CountdownTimer = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Compte à rebours de Noël</h1>
+    <div className="groupTimer">
+      <h1>Noël arrive bientôt dans ...</h1>
       <div>
-        <div>{timeRemaining.days} jours</div>
-        <div>{timeRemaining.hours} heures</div>
-        <div>{timeRemaining.minutes} minutes</div>
-        <div>{timeRemaining.seconds} secondes</div>
+        <div className="dodo">{timeRemaining.days} Dodos</div>
       </div>
     </div>
   );

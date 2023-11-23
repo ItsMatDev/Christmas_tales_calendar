@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import Text from "../../components/text/Text";
 import "./Tales.scss";
 import noel from "../../assets/perenoel.png";
@@ -23,6 +23,9 @@ function Tales() {
 			<img src={noel} alt="" />
 			<main className="tales__page">
 				<Text />
+      <Link to="/Calendar">
+        <button className="returnToMain">X</button>
+      </Link>
 			</main>
 		</>
 	);
