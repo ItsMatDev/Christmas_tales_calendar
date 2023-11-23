@@ -7,10 +7,10 @@ import HomeTitle from "../../components/HomeTitle/HomeTitle";
 function Home() {
   return(
   <main className="homeMain">
-    <HomeTitle />;
-    <CountdownTimer />;
-    <Presentation />;
-    <HouseHome />;
+    <div className="HomeTitle"><HomeTitle /></div>;
+    <div className="CountdownTimer"><CountdownTimer /></div>;
+    <div className="Presentation"><Presentation /></div>;
+    <div className="HouseHome"><HouseHome /></div>;
   </main>)
 }
 
