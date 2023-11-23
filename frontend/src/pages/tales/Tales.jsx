@@ -4,7 +4,7 @@ import "./Tales.scss";
 function Tales() {
   return (
     <main>
-      <div className="imagefond"></div>
+      <div className="tales__page"></div>
       <Text />
     </main>
   );
