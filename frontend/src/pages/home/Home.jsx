@@ -5,30 +5,23 @@ import HouseHome from "../../components/HouseHome/HouseHome";
 import HomeTitle from "../../components/HomeTitle/HomeTitle";
 import Snow from "../../components/Snow";
 import Smoke from "../../components/Smoke/Smoke";
+
 function Home() {
   return (
-    <>
-      <Smoke />
-      <Snow />
-      <main className="homeMain">
-        <div className="HomeTitle">
-          <HomeTitle />
-        </div>
-        ;
-        <div className="CountdownTimer">
-          <CountdownTimer />
-        </div>
-        ;
-        <div className="Presentation">
-          <Presentation />
-        </div>
-        ;
-        <div className="HouseHome">
-          <HouseHome />
-        </div>
-        ;
-      </main>
-    </>
+    <main className="homeMain">
+      <div className="HomeTitle">
+        <HomeTitle />
+      </div>
+      <div className="CountdownTimer">
+        <CountdownTimer />
+      </div>
+      <div className="Presentation">
+        <Presentation />
+      </div>
+      <div className="HouseHome">
+        <HouseHome />
+      </div>
+    </main>
   );
 }
 export default Home;
