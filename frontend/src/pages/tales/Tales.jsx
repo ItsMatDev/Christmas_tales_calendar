@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import Text from "../../components/text/Text";
 import "./Tales.scss";
 
@@ -18,6 +18,9 @@ function Tales() {
   return (
     <main className="tales__page">
       <Text />
+      <Link to="/">
+        <button className="returnToMain">X</button>
+      </Link>
     </main>
   );
 }

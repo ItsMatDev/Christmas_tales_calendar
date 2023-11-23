@@ -1,5 +1,4 @@
 .backgroundSnow {
-  height: 100vh;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
 }
@@ -11,8 +10,8 @@
 }
 
 .snow {
-  $total: 10000;
   position: absolute;
+  $total: 10000;
   width: 10px;
   height: 10px;
   background: white;
