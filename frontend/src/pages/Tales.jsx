@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+
 function Tales() {
   const { id } = useParams();
   const [Calendarcase, setCalendarcase] = useState();
