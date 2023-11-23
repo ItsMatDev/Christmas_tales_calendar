@@ -26,9 +26,9 @@ app.get("/", (req, res) => {
 
 // app.get("/users/:name", welcomeName);
 
-const experiencePro = require("./data.json");
+const tales = require("./data.json");
 
-const getexp = (req, res) => {
-	res.status(200).json(experiencePro);
+const tales = (req, res) => {
+	res.status(200).json(tales);
 };
-app.get("/noel", getexp);
+app.get("/tales", tales);
