@@ -2,9 +2,9 @@ import "./Text.scss";
 
 function Text() {
   return (
-    <div className="pageConte">
-      <h1>LE TITRE DU CONTE</h1>
-      <p>
+    <div className="pageconte">
+      <h1 className="pageconte__titre">LE TITRE DU CONTE</h1>
+      <p className="pageconte__text">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
         assumenda consectetur nesciunt enim iure odio recusandae neque nostrum
         dicta, eaque, omnis nemo ad, dolorum incidunt fugit atque possimus esse
