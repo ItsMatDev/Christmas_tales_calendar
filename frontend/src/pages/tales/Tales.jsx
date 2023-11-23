@@ -14,20 +14,27 @@ function Tales() {
 			.then((data) => setCalendarcase(data));
 	}, []);
 
+	useEffect(() => {
+		document.body.style.overflow = "hidden";
+		return () => {
+			document.body.style.overflow = "visible";
+		};
+	}, []);
+
 	const calendarc = (Calendarcase || []).find(
 		(el) => el.id === parseInt(id, 10)
 	);
 
 	return (
-		<>
-			<img src={noel} alt="" />
+		<div className="backgroundor">
+			<img className="peretraineau" src={noel} alt="" />
 			<main className="tales__page">
 				<Text />
-      <Link to="/Calendar">
-        <button className="returnToMain">X</button>
-      </Link>
+				<Link to="/Calendar">
+					<button className="returnToMain">X</button>
+				</Link>
 			</main>
-		</>
+		</div>
 	);
 }
 
