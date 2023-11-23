@@ -1,0 +1,29 @@
+@keyframes traineau {
+	0% {
+		transform: translate(-50vw, 0vw);
+	}
+	100% {
+		transform: translate(120vw, 0);
+	}
+}
+
+@keyframes titre {
+	0% {
+		transform: translate(-50vw, 50vh);
+	}
+	100% {
+		transform: translate(20vw, 50vh);
+	}
+}
+
+img {
+	animation: traineau linear forwards 3s;
+	position: absolute;
+	width: 15vw;
+	height: 100vh;
+	z-index: 80;
+}
+
+.title {
+	animation: titre linear forwards 1.2s;
+}
