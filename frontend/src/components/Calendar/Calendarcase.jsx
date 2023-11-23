@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Calendarcase.scss";
+import { Link } from "react-router-dom";
 
 function Calendarcase() {
 	const [Calendarcase, setCalendarcase] = useState();
@@ -29,13 +30,17 @@ function Calendarcase() {
 					const indiceAleatoire = genererIndiceAleatoire();
 
 					return (
-						<section
-							key={calendarcas.id}
-							className={calendarcas.Name}
-							style={{ order: indiceAleatoire }}
-						>
-							{calendarcas.id}
-						</section>
+						<>
+							<section
+								key={calendarcas.id}
+								className={calendarcas.Name}
+								style={{ order: indiceAleatoire }}
+							>
+								<Link to={`/Tales/${calendarcas.id}`}>
+									{calendarcas.id}
+								</Link>
+							</section>
+						</>
 					);
 				})}
 		</div>
