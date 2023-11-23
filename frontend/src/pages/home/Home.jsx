@@ -4,9 +4,11 @@ import Presentation from "../../components/Presentation/Presentation";
 import HouseHome from "../../components/HouseHome/HouseHome";
 import HomeTitle from "../../components/HomeTitle/HomeTitle";
 import Snow from "../../components/Snow";
+import Smoke from "../../components/Smoke/Smoke";
 function Home() {
   return (
     <>
+      <Smoke />
       <Snow />
       <main className="homeMain">
         <div className="HomeTitle">
