@@ -8,28 +8,25 @@ import Smoke from "../../components/Smoke/Smoke";
 
 function Home() {
   return (
-     <>
+    <>
       <Smoke />
       <Snow />
-    <main className="homeMain">
-      <div className="HomeTitle">
-        <HomeTitle />
-      </div>
-      ;
-      <div className="CountdownTimer">
-        <CountdownTimer />
-      </div>
-      ;
-      <div className="Presentation">
-        <Presentation />
-      </div>
-      ;
-      <div className="HouseHome">
-        <HouseHome />
-      </div>
-      <audio autoPlay={true} controls src="/src/sound/musicnoel.mp3"></audio>;
-    </main>
-   </>
+      <main className="homeMain">
+        <div className="HomeTitle">
+          <HomeTitle />
+        </div>
+        <div className="CountdownTimer">
+          <CountdownTimer />
+        </div>
+        <div className="Presentation">
+          <Presentation />
+        </div>
+        <div className="HouseHome">
+          <HouseHome />
+        </div>
+        <audio autoPlay={true} controls src="/src/sound/musicnoel.mp3"></audio>;
+      </main>
+    </>
   );
 }
 
