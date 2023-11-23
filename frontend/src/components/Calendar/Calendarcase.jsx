@@ -26,11 +26,6 @@ function Calendarcase() {
       {Calendarcase &&
         Calendarcase.map((calendarcas) => {
           const indiceAleatoire = genererIndiceAleatoire();
-  return (
-    <div className="parent">
-      {Calendarcase &&
-        Calendarcase.map((calendarcas) => {
-          const indiceAleatoire = genererIndiceAleatoire();
 
           return (
             <>
