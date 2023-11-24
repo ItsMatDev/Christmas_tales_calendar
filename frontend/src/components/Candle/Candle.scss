@@ -8,15 +8,14 @@
 }
 
 .bodyCandle {
-	animation: candle linear forwards 2s;
-	position: absolute;
-	width: 22vw;
-	height: 37vh;
-	left: 82vw;
-	top: 69vh;
+  position: absolute;
+  width: 22vw;
+  height: 37vh;
+  left: 82vw;
+  top: 69vh;
 }
 body {
-	background: black;
+  background: black;
 }
 
 @keyframes bougie {
@@ -53,59 +52,59 @@ body {
 	position: absolute;
 }
 .flame {
-	bottom: 0;
-	position: absolute;
-	border-bottom-right-radius: 50%;
-	border-bottom-left-radius: 50%;
-	border-top-left-radius: 50%;
-	transform: rotate(-45deg) scale(1.5, 1.5);
+  bottom: 0;
+  position: absolute;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  transform: rotate(-45deg) scale(1.5, 1.5);
 }
 
 .yellow {
-	left: 15px;
-	width: 30px;
-	height: 30px;
-	background: gold;
-	box-shadow: 0px 0px 9px 4px gold;
+  left: 1vw;
+  width: 2vw;
+  height: 4vh;
+  background: gold;
+  box-shadow: 0px 0px 9px 4px gold;
 }
 
 .orange {
-	left: 10px;
-	width: 40px;
-	height: 40px;
-	background: orange;
-	box-shadow: 0px 0px 9px 4px orange;
+  left: 0.5vw;
+  width: 2.6vw;
+  height: 5vh;
+  background: orange;
+  box-shadow: 0px 0px 9px 4px orange;
 }
 
 .red {
-	left: 5px;
-	width: 50px;
-	height: 50px;
-	background: OrangeRed;
-	box-shadow: 0px 0px 5px 4px OrangeRed;
+  left: 0.2vw;
+  width: 3.3vw;
+  height: 6.5vh;
+  background: OrangeRed;
+  box-shadow: 0px 0px 5px 4px OrangeRed;
 }
 
 .white {
-	left: 15px;
-	bottom: -4px;
-	width: 30px;
-	height: 30px;
-	background: white;
-	box-shadow: 0px 0px 9px 4px white;
+  left: 1vw;
+  bottom: -1vh;
+  width: 2vw;
+  height: 4vh;
+  background: white;
+  box-shadow: 0px 0px 9px 4px white;
 }
 
 .circle {
-	border-radius: 50%;
-	position: absolute;
+  border-radius: 50%;
+  position: absolute;
 }
 
 .blue {
-	width: 10px;
-	height: 10px;
-	left: 25px;
-	bottom: -25px;
-	background: SlateBlue;
-	box-shadow: 0px 0px 15px 10px SlateBlue;
+  width: 0.6vw;
+  height: 1vh;
+  left: 1.7vw;
+  bottom: -2vh;
+  background: SlateBlue;
+  box-shadow: 0px 0px 15px 10px SlateBlue;
 }
 
 // .black{
@@ -118,22 +117,22 @@ body {
 // }
 
 @keyframes flicker {
-	0% {
-		transform: rotate(-1deg);
-	}
-	20% {
-		transform: rotate(1deg);
-	}
-	40% {
-		transform: rotate(-1deg);
-	}
-	60% {
-		transform: rotate(1deg) scaleY(1.04);
-	}
-	80% {
-		transform: rotate(-2deg) scaleY(0.92);
-	}
-	100% {
-		transform: rotate(1deg);
-	}
+  0% {
+    transform: rotate(-1deg);
+  }
+  20% {
+    transform: rotate(1deg);
+  }
+  40% {
+    transform: rotate(-1deg);
+  }
+  60% {
+    transform: rotate(1deg) scaleY(1.04);
+  }
+  80% {
+    transform: rotate(-2deg) scaleY(0.92);
+  }
+  100% {
+    transform: rotate(1deg);
+  }
 }
