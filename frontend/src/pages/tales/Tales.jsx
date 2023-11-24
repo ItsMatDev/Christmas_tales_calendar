@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import Text from "../../components/text/Text";
 import PictureTales from "../../components/picturetales/PictureTales";
+import Candle from "../../components/Candle/Candle";
+import pictureCandle from "../../assets/candle.png";
 import "./Tales.scss";
 
 function Tales() {
@@ -22,6 +24,7 @@ function Tales() {
         <main className="tales__page">
           <Text content={calendarc} />
           <PictureTales content={calendarc} />
+          <img className="bodyCandle" src={pictureCandle} alt="le corp d'une bougie"/>
           <Link to="/Calendar">
             <button className="returnToMain">X</button>
           </Link>

@@ -1,8 +1,17 @@
-.pictureconte {
-  opacity: 0.9;
-  width: 28vw;
-  height: 45vh;
+
+.border__img {
   position: absolute;
-  top: 25vh;
-  right: 15vw;
+  top: 15.5vh;
+  right: 7.5vw;
+  width: 44vw;
+  height: 69.5vh;
+  z-index: 1;
+}
+.pictureconte {
+  top: 30vh;
+  right: 16vw;
+  opacity: 0.9;
+  width: 25vw;
+  height: 40vh;
+  position: absolute;
 }
