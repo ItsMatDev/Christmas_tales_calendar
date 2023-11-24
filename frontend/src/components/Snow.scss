@@ -1,7 +1,6 @@
 @use "sass:math";
 
 .backgroundSnow {
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
 }
 
@@ -13,13 +12,13 @@
 
 .snow {
   position: absolute;
-  $total: 500;
+  $total: 400;
   width: 10px;
   height: 10px;
   background: white;
   border-radius: 50%;
   filter: drop-shadow(0 0 10px white);
-
+  filter: drop-shadow(0 0 10px white);
   @for $i from 1 through $total {
     $random-x: random(1000000) * 0.0001vw;
     $random-offset: random_range(-100000, 100000) * 0.0001vw;
