@@ -3,6 +3,7 @@ import "./Text.scss";
 
 function Text({ content }) {
 	const [nexttest, setNexttext] = useState(1);
+	const [sound, setSound] = useState(false);
 	console.log(content);
 	const handleClick = () => {
 		setNexttext(nexttest + 1);
@@ -10,6 +11,7 @@ function Text({ content }) {
 	const handleClickmoins = () => {
 		setNexttext(nexttest - 1);
 	};
+
 	return (
 		<div className="pageconte">
 			<h1 className="pageconte__titre">{content.title}</h1>
@@ -41,18 +43,33 @@ function Text({ content }) {
 						</span>
 					</p>
 					<p className="partietext"> Pages 1 </p>
+					<audio
+						autoPlay={true}
+						controls
+						src="/src/sound/turning-pages.mp3"
+					></audio>
 				</>
 			)}
 			{content && nexttest === 2 && (
 				<>
 					<p className="pageconte__text">{content.tale.secondPart}</p>
 					<p className="partietext"> Pages 2 </p>
+					<audio
+						autoPlay={true}
+						controls
+						src="/src/sound/turning-pages.mp3"
+					></audio>
 				</>
 			)}
 			{content && nexttest === 3 && (
 				<>
 					<p className="pageconte__text">{content.tale.thirdPart}</p>
 					<p className="partietext"> Pages 3</p>
+					<audio
+						autoPlay={true}
+						controls
+						src="/src/sound/turning-pages.mp3"
+					></audio>
 				</>
 			)}
 		</div>
