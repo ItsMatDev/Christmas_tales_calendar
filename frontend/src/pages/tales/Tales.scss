@@ -1,5 +1,5 @@
 body {
-	margin: 0;
+  margin: 0;
 }
 
 .backgroundor {
@@ -33,12 +33,11 @@ body {
 }
 
 .tales__page {
-	animation: titre linear forwards 1s;
-	h1 {
-		margin: 0;
-	}
-	background-image: url("../../assets/vieuxlivre.jpg");
-	height: 100vh;
-	background-size: 100% 100%;
+  h1 {
+    margin: 0;
+  }
+  background-image: url("../../assets/vieuxlivre.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
 }
 

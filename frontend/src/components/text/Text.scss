@@ -1,25 +1,50 @@
-@import url('https://fonts.cdnfonts.com/css/enchanted-land');
-
+@import url("https://fonts.cdnfonts.com/css/enchanted-land");
+@font-face {
+  font-family: "squac";
+  src: url("../../fonts/squac.TTF");
+}
+@font-face {
+  font-family: "Gabrielle";
+  src: url("../../fonts/Gabrielle.TTF");
+}
+@font-face {
+  font-family: "CalligraphyPen";
+  src: url("../../fonts/Calligraphy-Pen.TTF");
+}
+$bordeaux: #eec666;
 //VARIABLES
 // FONT
-$font-tales:'Enchanted Land', sans-serif;
+$font-tales: "squac";
 
 .pageconte {
   position: absolute;
   left: 19vw;
-  top: 15vh;
+  top: 14vh;
   width: 30vw;
   height: 80vh;
 }
 
 .pageconte__titre {
-  color: brown;
+  color: black;
   text-align: center;
-  font-family: $font-tales;
+  text-shadow: -1px -1px 0 $bordeaux, 1px -1px 0 $bordeaux, -1px 1px 0 $bordeaux, 1px 1px 0 $bordeaux;
 }
 .pageconte__text {
+  margin-top: 3vh;
+  .firstLetter {
+    font-family: $font-tales;
+    font-size: 4.5vw;
+    font-weight: 100;
+    line-height: 10vh;
+  }
+  .otherLetter {
+    font-family: "Gabrielle";
+  }
+  color: black;
   text-align: center;
-  font-size: 1.1vw;
+  font-size: 1.65vw;
+  font-weight: 600;
   line-height: 1em;
-  font-family: $font-tales;
+  font-family: "Gabrielle";
+  text-shadow: -1px -1px 0 $bordeaux, 1px -1px 0 $bordeaux, -1px 1px 0 $bordeaux, 1px 1px 0 $bordeaux;
 }

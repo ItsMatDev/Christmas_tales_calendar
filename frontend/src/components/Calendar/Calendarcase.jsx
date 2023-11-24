@@ -76,24 +76,15 @@ function Calendarcase() {
 					Calendarcase.map((calendarcas) => {
 						const indiceAleatoire = genererIndiceAleatoire();
 
-						return (
-							<>
-								<section
-									key={calendarcas.id}
-									className={calendarcas.Name}
-									style={{ order: indiceAleatoire }}
-								>
-									<section
-										key={calendarcas.id}
-										className="open"
-									>
-										<Link to={`/Tales/${calendarcas.id}`}>
-											<p>{calendarcas.id}</p>
-										</Link>
-									</section>
-								</section>
-							</>
-						);
+						<section
+							key={calendarcas.id}
+							className={calendarcas.Name}
+							style={{ order: indiceAleatoire }}
+						>
+							<Link to={`/Tales/${calendarcas.id}`}>
+								<p>{calendarcas.id}</p>
+							</Link>
+						</section>;
 					})}
 			</div>
 		</>
