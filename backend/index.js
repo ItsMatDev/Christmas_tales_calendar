@@ -20,6 +20,8 @@ app.get("/", (req, res) => {
 	res.send("Welcome to Express");
 });
 
+app.use(express.static("public"));
+
 const tales = require("./data.json");
 
 const talesData = (req, res) => {

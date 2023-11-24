@@ -1,102 +1,266 @@
 [
-	{
-		"id": 1,
-		"name": "test1"
-	},
-	{
-		"id": 2,
-		"name": "test2"
-	},
-	{
-		"id": 3,
-		"name": "test3"
-	},
-	{
-		"id": 4,
-		"name": "test4"
-	},
-	{
-		"id": 5,
-		"name": "test5"
-	},
-	{
-		"id": 6,
-		"name": "test6"
-	},
-	{
-		"id": 7,
-		"name": "test7"
-	},
-	{
-		"id": 8,
-		"name": "test8"
-	},
-	{
-		"id": 9,
-		"name": "test9"
-	},
-	{
-		"id": 10,
-		"name": "test10"
-	},
-	{
-		"id": 11,
-		"name": "test11"
-	},
-	{
-		"id": 12,
-		"name": "test12"
-	},
-	{
-		"id": 13,
-		"name": "test13"
-	},
-	{
-		"id": 14,
-		"name": "test14"
-	},
-	{
-		"id": 15,
-		"name": "test15"
-	},
-	{
-		"id": 16,
-		"name": "test16"
-	},
-	{
-		"id": 17,
-		"name": "test17"
-	},
-	{
-		"id": 18,
-		"name": "test18"
-	},
-	{
-		"id": 19,
-		"name": "test19"
-	},
-	{
-		"id": 20,
-		"name": "test20"
-	},
-	{
-		"id": 21,
-		"name": "test21"
-	},
-	{
-		"id": 22,
-		"name": "test22"
-	},
-	{
-		"id": 23,
-		"name": "test23"
-	},
-	{
-		"id": 24,
-		"name": "test24"
-	},
-	{
-		"id": 25,
-		"name": "test25"
-	}
+  {
+    "id": 1,
+    "title": "La Magie du Renne Étincelant",
+    "tale": {
+      "firstPart": "Au Pôle Nord, parmi la joyeuse cohorte de rennes du Père Noël, se distinguait Étincelant, un renne au nez éblouissant. Son nez émettait une lueur si vive qu'elle éclairait le ciel nocturne. La particularité d'Étincelant ne se limitait pas à sa brillance, car il aspirait à une connexion plus profonde avec les étoiles. Un jour, en explorant la forêt enneigée, Étincelant découvrit un grimoire antique enseignant la magie des cieux. Il s'immergea dans ses pages mystiques, apprenant à canaliser sa lueur éclatante pour répandre la magie de Noël. Les étoiles, émues par son désir de partager la beauté de la nuit, lui conférèrent des pouvoirs célestes.",
+      "secondPart": "La veille de Noël, Étincelant se présenta avec une lueur encore plus éblouissante. Aux côtés du Père Noël, ils s'envolèrent à travers le firmament étoilé, répandant la magie de Noël sur chaque coin de la terre. Les enfants regardaient émerveillés, sentant l'esprit de Noël dans l'air à chaque passage étincelant.",
+      "thirdPart": "Étincelant devint le gardien de la magie de Noël, révélant que sa lueur n'était pas simplement un guide, mais une source d'amour et de générosité. De retour dans la forêt, il partagea son savoir avec les autres rennes, comprenant que la véritable magie résidait dans le partage et la bienveillance. Depuis lors, Étincelant brille chaque nuit de Noël, rappelant à tous que la magie réside dans le cœur, et chaque éclat évoque la beauté de la saison festive."
+    },
+    "imgSrc": "/Rudolph-pic.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 2,
+    "title": "La Quête du Bonhomme de Neige Géant",
+    "tale": {
+      "firstPart": "Dans un village enneigé, un bonhomme de neige du nom de Flocon rêvait de grandeur. Inspiré par une légende de souhaits exaucés par une étoile filante à Noël, Flocon entreprit une quête hivernale. Bravant tempêtes et défis glacés, il atteignit le lieu où la légendaire étoile devait apparaître.",
+      "secondPart": "Sous un ciel étoilé, Flocon fit son vœu avec ferveur. Une énergie magique le parcourut, transformant ce bonhomme de neige en une figure imposante et éclatante. Le village se réveilla pour découvrir Flocon, désormais le bonhomme de neige le plus grand qu'ils aient jamais vu.",
+      "thirdPart": "Flocon réalisa que la grandeur n'était pas simplement physique, mais résidait dans la poursuite des rêves. Chaque année, le village se rappelait de la quête extraordinaire de Flocon, rappelant aux enfants que la magie de Noël résidait dans la poursuite de leurs rêves les plus chers."
+    },
+    "imgSrc": "/giant-snowman.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 3,
+    "title": "L'Aventure des Lutins Musiciens",
+    "tale": {
+      "firstPart": "Au cœur de l'atelier du Père Noël, une petite troupe de lutins particuliers, les Lutins Musiciens, rêvait de répandre la joie à travers la musique. Ils découvrirent un livre de sorts musicaux ancien, promettant une mélodie capable de réchauffer les cœurs les plus froids.",
+      "secondPart": "Armés de leurs instruments magiques, les Lutins Musiciens composèrent une chanson enchanteresse. Leurs mélodies magiques firent danser même les jouets du Père Noël, créant une harmonie qui transcenda l'atelier. La nuit de Noël, les Lutins Musiciens offrirent un concert magique, résonnant à travers le Pôle Nord. La musique se répandit dans le monde, apportant une vague de bonheur à tous ceux qui l'entendirent.",
+      "thirdPart": "Les Lutins Musiciens découvrirent que la vraie magie résidait dans la musique, capable d'unir les cœurs et de créer des souvenirs durables. Chaque année, ils enchantent le monde avec leurs mélodies, rappelant à tous que la musique est un cadeau précieux qui transcende toutes les frontières."
+    },
+    "imgSrc": "/elf-orchestra.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 4,
+    "title": "Le Cadeau Magique",
+    "tale": {
+      "firstPart": "En cette nuit étoilée de Noël, l'excitation brillait dans les yeux d'Alex alors qu'il découvrait un cadeau particulièrement mystérieux sous le sapin. L'emballage chatoyant semblait renfermer une promesse enchantée, et quand Alex l'ouvrit, il se trouva soudain transporté dans un monde magique. Les jouets prenaient vie avec une énergie joyeuse, transformant sa chambre en un royaume animé.",
+      "secondPart": "Des poupées espiègles dansaient au son d'une mélodie enchantée, des jeux de société prenaient vie avec des défis ludiques, et un vieux train électrique l'emmenait dans des contrées imaginaires. Tout au long de cette nuit fantastique, chaque jouet devint un guide, enseignant à Alex des leçons inoubliables sur l'amitié, la générosité, et le pouvoir infini de l'imagination.",
+      "thirdPart": "Lorsque les premières lueurs de l'aube apparurent, le cadeau magique avait non seulement créé une nuit extraordinaire, mais avait également insufflé à Alex une croyance durable dans la magie infinie de Noël."
+    },
+    "imgSrc": "/magic-gift.png",
+    "imgAlt": ""
+  },
+  {
+    "id": 5,
+    "title": "La Reine des Flocons",
+    "tale": {
+      "firstPart": "Au cœur du royaume hivernal d'Hiver Éternel, Elara, une petite fille intrépide, fit la rencontre de la majestueuse Reine des Flocons. Cette créature élégante, aux mouvements gracieux, faisait tomber des flocons scintillants à chaque pas.",
+      "secondPart": "Invitant Elara à explorer les merveilles gelées de son royaume, la Reine des Flocons lui enseigna la valeur de chaque flocon, unique et éphémère. Ensemble, elles traversèrent des paysages givrés, créant des souvenirs aussi délicats que les flocons qui les entouraient. La Reine des Flocons laissa à Elara une leçon précieuse : apprécier l'instant présent et trouver la beauté dans la fugacité.",
+      "thirdPart": "Ainsi, chaque hiver, quand les premiers flocons tombaient, Elara se souvenait de la sagesse de la Reine des Flocons, préservant une perspective magique et reconnaissante sur le monde qui l'entourait."
+    },
+    "imgSrc": "/queen-snowflakes.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 6,
+    "title": "Le Noël des Animaux Parlants",
+    "tale": {
+      "firstPart": "La veille de Noël, une forêt en sommeil s'éveilla à une magie extraordinaire. Les animaux, dotés du pouvoir éphémère de la parole, se rassemblèrent pour une réunion exceptionnelle. Les hiboux partagèrent des sagesses séculaires, les renards tissèrent des contes malicieux, et même le timide lapin révéla des secrets enfouis depuis longtemps.",
+      "secondPart": "Ensemble, ils célébrèrent le Noël des Animaux Parlants, échangeant rires, chansons, et vœux de paix. Alors que la lueur magique de cette nuit s'estompait, les animaux retournèrent à leurs silencieuses habitudes, mais les échos de leur joyeuse réunion persistaient, rappelant aux enfants que, même dans le calme de la forêt, la magie de Noël était palpable et universelle.",
+      "thirdPart": "Chaque année, les souvenirs de cette nuit particulière résonnaient dans le cœur des enfants, leur rappelant la magie qui pouvait se cacher dans les endroits les plus inattendus."
+    },
+    "imgSrc": "/animals-speak.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 7,
+    "title": "La Légende de l'Étoile Filante",
+    "tale": {
+      "firstPart": "Il était une fois, dans un ciel étoilé, la légende d'une étoile filante qui exauçait les vœux de Noël. Chaque année, les villageois attendaient avec anticipation l'apparition de cette étoile magique. La nuit de Noël, elle traversait le ciel comme une traînée de lumière, laissant derrière elle une pluie d'étoiles scintillantes.",
+      "secondPart": " Les enfants, les yeux rivés vers le firmament, faisaient des vœux secrets alors que l'étoile filante passait. On disait que ceux qui croyaient en la magie de Noël et faisaient un vœu de bon cœur verraient leur rêve se réaliser. ",
+      "thirdPart": "La Légende de l'Étoile Filante réchauffait les cœurs, rappelant à tous que même dans le ciel étoilé, la magie de Noël pouvait accomplir des miracles."
+    },
+    "imgSrc": "/shooting-star.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 8,
+    "title": "Le Jour où les Jouets Prirent Vie",
+    "tale": {
+      "firstPart": "Un matin de Noël, un jeune garçon nommé Oliver découvrit que quelque chose de magique s'était produit pendant la nuit. Ses jouets, d'ordinaire immobiles, s'étaient animés et étaient devenus de véritables compagnons d'aventure.",
+      "secondPart": "Les soldats de plomb marchaient en formation, les poupées racontaient des histoires enchantées, et même le vieux robot de fer-blanc avait trouvé une nouvelle vie. Ensemble, ils emmenèrent Oliver dans un monde fantastique où l'imagination régnait en maître.",
+      "thirdPart": "Le Jour où les Jouets Prirent Vie devint une histoire chérie que les enfants du village partageaient, rappelant à tous que, même au-delà de la magie éphémère de Noël, l'imagination et le jeu pouvaient transformer le quotidien en une aventure extraordinaire."
+    },
+    "imgSrc": "/magic-toys.png",
+    "imgAlt": ""
+  },
+  {
+    "id": 9,
+    "title": "Les Aventures de Gingerbread",
+    "tale": {
+      "firstPart": "Au cœur du pays de Noël, un petit bonhomme en pain d'épice du nom de Gingerbread vivait des aventures sucrées et mémorables. Chaque année, lors de la saison des fêtes, Gingerbread prenait vie, et ses escapades comiques devenaient le centre des rires et des sourires.",
+      "secondPart": "Il s'aventurait dans la maison, échappant aux tentations des enfants, explorant les recoins les plus reculés avec une détermination comique. Les Aventures de Gingerbread étaient devenues une tradition réconfortante, apportant joie et légèreté à chaque Noël. Cette histoire sucrée rappelait à tous que, même les petites créatures en pain d'épice, pouvaient apporter une dose de magie dans nos vies lors de la saison festive.",
+      "thirdPart": "Les enfants attendaient avec impatience le jour où Gingerbread prendrait vie, sachant que son arrivée marquerait le début d'une période enchantée. Chaque miette de cette histoire délicieuse fondait dans le cœur des spectateurs, laissant une saveur sucrée de Noël qui persistait longtemps après les fêtes."
+    },
+    "imgSrc": "/gingerbread-man.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 10,
+    "title": "Le Secret des Élans Danseurs",
+    "tale": {
+      "firstPart": "Au cœur de la forêt enneigée, un secret merveilleux demeurait connu seulement des animaux nocturnes et des rêveurs éveillés. Chaque nuit de Noël, les élans de la forêt prenaient vie, se transformant en élégants danseurs sous la lueur de la lune. Le Secret des Élans Danseurs commençait lorsque les premières étoiles étincelaient dans le ciel nocturne.",
+      "secondPart": "Les enfants qui avaient la chance d'observer cette danse magique découvraient un monde où les élans tournoyaient avec grâce, échangeant des histoires secrètes avec la brise hivernale. La légende racontait que ceux qui gardaient le secret et respectaient la beauté fugace de cette nuit spéciale pouvaient sentir l'énergie joyeuse des élans dans leur cœur tout au long de l'année.",
+      "thirdPart": "Ainsi, Le Secret des Élans Danseurs devenait une histoire transmise de génération en génération, une invitation à croire en la magie qui se révèle uniquement à ceux qui ont le cœur ouvert à la beauté de Noël."
+    },
+    "imgSrc": "/elk-dancer.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 11,
+    "title": "La Lueur de la Lanterne",
+    "tale": {
+      "firstPart": "Dans un petit village isolé par la neige, une tradition spéciale illuminait les froides nuits d'hiver. Chaque année, les villageois allumaient des lanternes magiques pour guider le Père Noël lors de sa tournée. La Lueur de la Lanterne symbolisait l'esprit de générosité et d'accueil de la communauté.",
+      "secondPart": "Les enfants décoraient avec soin leurs lanternes, y glissant des vœux secrets, avant de les placer devant leur porte. Lorsque la nuit tombait, les lumières émanaient une lueur chaleureuse, créant un chemin scintillant pour le Père Noël. Les villageois se rassemblaient pour contempler la magie des lanternes, unissant leurs esprits dans l'espoir que chaque lumière représente un acte de bonté et de partage.",
+      "thirdPart": "La Lueur de la Lanterne était bien plus qu'une tradition, c'était une célébration de l'unité et de l'amour qui transcende les frontières et illumine les nuits sombres de l'hiver."
+    },
+    "imgSrc": "/lantern.png",
+    "imgAlt": ""
+  },
+  {
+    "id": 12,
+    "title": "L'Étoile Perdue",
+    "tale": {
+      "firstPart": "Une nuit étoilée, une étoile solitaire se détacha du ciel et tomba dans la forêt enchantée. C'était l'Étoile Perdue, une lueur magique qui contenait le pouvoir de réaliser les vœux les plus sincères. Elle fut découverte par une jeune fille nommée Aria, qui, guidée par la curiosité et l'esprit de Noël, la prit délicatement entre ses mains.",
+      "secondPart": " L'Étoile Perdue, reconnaissante d'avoir trouvé une compagne compatissante, révéla son pouvoir. Dès lors, Aria devint la gardienne de l'Étoile Perdue, utilisant son pouvoir pour apporter joie et réconfort à ceux qui en avaient besoin. L'histoire de l'Étoile Perdue se propagea dans la région, et chaque année, les enfants cherchaient dans le ciel, espérant apercevoir son éclat spécial.",
+      "thirdPart": "C'était une histoire de magie, de compassion et de la lumière qui émane du partage, un conte étincelant qui perdurait à travers les hivers, rappelant aux gens que l'amour et la bienveillance sont des étoiles qui illuminent notre chemin, même dans les nuits les plus sombres."
+    },
+    "imgSrc": "/lost-star.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 13,
+    "title": "Le Petit Sapin qui Rêvait Grand",
+    "tale": {
+      "firstPart": "Au cœur de la forêt, il y avait un petit sapin qui rêvait de grandeur. Son feuillage était modeste, et il se tenait humblement parmi les arbres plus imposants. Cependant, Le Petit Sapin qui Rêvait Grand ne se laissait pas décourager par sa taille. Chaque année, pendant la saison des fêtes, il aspirait à être choisi comme le sapin de Noël parfait. ",
+      "secondPart": " Un jour, un couple de personnes âgées le remarqua. Ils virent au-delà de sa modestie et furent attirés par la lueur d'espoir dans ses branches. Le petit sapin fut abattu avec amour et placé au centre de leur salon. Il était entouré de l'amour de la famille et des rires joyeux. Le Petit Sapin qui Rêvait Grand réalisa que la grandeur ne résidait pas seulement dans la taille, mais dans les moments partagés et les souvenirs créés.",
+      "thirdPart": "Chaque année, il devint le sapin de Noël préféré de la famille, rappelant à tous que peu importe notre taille ou notre apparence, nos rêves peuvent devenir grands grâce à l'amour et à la chaleur de la saison de Noël."
+    },
+    "imgSrc": "/christmas-tree.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 14,
+    "title": "La Course des Renards de Noël",
+    "tale": {
+      "firstPart": "Dans la forêt enchantée du Pôle Nord, une tradition magique unissait les renards pendant la saison de Noël : La Course des Renards de Noël. Chaque année, les renards se réunissaient pour une course rapide à travers la neige étincelante, avec pour objectif d'atteindre le Père Noël en premier.",
+      "secondPart": "Le vainqueur recevait l'honneur de tirer le traîneau magique du Père Noël pour la nuit de Noël. Parmi les compétiteurs intrépides se trouvait Roublard, un renard rusé et déterminé. Au cours de la course, Roublard fit preuve de courage et de stratégie. Il surmonta les obstacles hivernaux avec agilité, franchissant la ligne d'arrivée avec une ferveur palpable. Son exploit ne se limita pas à la victoire personnelle : il renforça également l'esprit d'unité parmi les renards.",
+      "thirdPart": "La Course des Renards de Noël devint une célébration annuelle, rappelant à tous que la compétition pouvait également être une source de camaraderie et de joie pendant la saison des fêtes."
+    },
+    "imgSrc": "fox-racing.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 15,
+    "title": "Les Mystères du Calendrier de l'Avent",
+    "tale": {
+      "firstPart": "Chaque année, au début de décembre, les enfants du petit village découvraient avec excitation l'arrivée du Calendrier de l'Avent. Les Mystères du Calendrier de l'Avent étaient une tradition chérie, un décompte quotidien jusqu'à Noël qui apportait une dose quotidienne de magie.",
+      "secondPart": " Chaque petite fenêtre renfermait une surprise : une friandise, un petit jouet, ou une note secrète invitant à une activité spéciale. Chaque jour, les enfants découvraient un nouveau mystère, tissant l'anticipation et la joie à mesure que Noël approchait. Le Calendrier de l'Avent devint bien plus qu'un simple compte à rebours ; il était le gardien des petites merveilles et des moments précieux qui rendaient la saison de Noël si spéciale.",
+      "thirdPart": "Les Mystères du Calendrier de l'Avent enseignaient aux enfants que chaque jour détient une magie unique, et que la véritable beauté de Noël réside dans la gratitude pour les petites surprises qui émaillent notre chemin tout au long de la saison festive."
+    },
+    "imgSrc": "/advent-calendar.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 16,
+    "title": "La Fête des Couleurs",
+    "tale": {
+      "firstPart": "Au royaume enchanté de Noël, une tradition magique illuminait la veille du grand jour : La Fête des Couleurs. Chaque année, les habitants de ce royaume vibrant se rassemblaient pour célébrer la diversité éclatante de la saison. Des feux d'artifice multicolores éclairaient le ciel nocturne, des guirlandes chatoyantes ornant chaque maison émettaient une lueur chaleureuse.",
+      "secondPart": "Les vêtements aux teintes vives étaient portés avec fierté, créant un tableau vivant d'une féérie de couleurs.Au centre de cette célébration se trouvait une fontaine magique qui déversait des éclats de lumière et de couleur dans toute la place du village. Les enfants riaient, sautant dans les reflets arc-en-ciel, et les adultes dansaient au rythme de la musique festive. ",
+      "thirdPart": "La Fête des Couleurs n'était pas simplement une célébration visuelle, mais un rappel que la diversité est une source de richesse et de joie. Chaque couleur, chaque nuance, représentait un élément essentiel de la magie de Noël, unissant tous les habitants du royaume dans un éclat de bonheur partagé."
+    },
+    "imgSrc": "/fireworks.png",
+    "imgAlt": ""
+  },
+  {
+    "id": 17,
+    "title": "Le Voyage du Pôle Nord",
+    "tale": {
+      "firstPart": "Un conte bien-aimé dans la région enchantée était celui du Voyage du Pôle Nord. Chaque année, une caravane de lutins entreprenait un périple magique vers le Pôle Nord, portant avec eux les lettres remplies de vœux et de rêves des enfants du monde entier.",
+      "secondPart": "Guidés par la lueur d'une étoile spéciale, ils traversaient des terres enneigées et des vallées enchantées, apportant avec eux l'esprit de Noël dans chaque coin du globe. Le Voyage du Pôle Nord était bien plus qu'une simple livraison de lettres au Père Noël. C'était une quête d'espoir, de générosité et de connexion entre les gens, créant un réseau de magie qui transcendait les frontières.",
+      "thirdPart": "Les lutins, porteurs de joie, revenaient chargés de sourires et de réponses aux souhaits des enfants, laissant dans leur sillage une traînée d'étoiles brillantes qui persistaient longtemps après leur retour. Cette histoire captivante était une source d'inspiration pour tous ceux qui rêvaient d'un monde où la magie de Noël pouvait réunir les cœurs, peu importe la distance."
+    },
+    "imgSrc": "",
+    "imgAlt": ""
+  },
+  {
+    "id": 18,
+    "title": "La Journée des Rires",
+    "tale": {
+      "firstPart": "Au Pays des Rêves, il y avait une journée particulière qui faisait briller les cœurs de tous : La Journée des Rires. C'était une journée dédiée à l'amusement, à la joie contagieuse, et aux éclats de rire qui résonnaient à travers la terre enchantée. Chaque habitant était encouragé à participer à des jeux farfelus, à partager des blagues joyeuses et à créer des moments de pur bonheur.",
+      "secondPart": "Les rires étaient la monnaie d'échange cette journée-là, car on croyait que chaque éclat de rire ajoutait une étincelle de magie à la saison de Noël. Les enfants construisaient des bonhommes de neige aux airs comiques, les animaux de la forêt se joignaient à des danses espiègles, et même les flocons de neige semblaient tomber en cascades de rires. La Journée des Rires n'était pas simplement une journée de divertissement, mais une célébration de la légèreté, de la spontanéité et du pouvoir transformateur du rire.",
+      "thirdPart": "Chaque rire, chaque sourire partagé, contribuait à la magie qui imprégnait le Pays des Rêves pendant la saison de Noël, rappelant à tous que la joie était la plus belle des décorations festives."
+    },
+    "imgSrc": "/santa/smilepng",
+    "imgAlt": ""
+  },
+  {
+    "id": 19,
+    "title": "Le Bonhomme de Neige Parleur",
+    "tale": {
+      "firstPart": "Dans un petit village recouvert d'une douce couche de neige, une légende circulait au sujet d'un Bonhomme de Neige pas comme les autres : Le Bonhomme de Neige Parleur. Chaque nuit de Noël, ce bonhomme de neige prenait vie et révélait son don spécial : la capacité de parler.",
+      "secondPart": "Les enfants, émerveillés, se rassemblaient autour de lui pour écouter ses récits enchantés sur les merveilles de l'hiver, les secrets des flocons de neige, et les aventures des rennes du Père Noël. Le Bonhomme de Neige Parleur devint une tradition chérie, apportant non seulement des histoires magiques mais aussi un message de connexion et de partage. Les enfants apprenaient à écouter les histoires de leurs aînés, à comprendre la beauté éphémère de l'hiver, et à apprécier la magie qui se cachait dans les petits détails.",
+      "thirdPart": "La présence chaleureuse du Bonhomme de Neige Parleur inspirait une atmosphère de joie et de compréhension mutuelle dans le village, créant ainsi une nuit de Noël mémorable et empreinte de magie."
+    },
+    "imgSrc": "/giant-snowmanjpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 20,
+    "title": "Le Sapin de Noël Éternel",
+    "tale": {
+      "firstPart": "Dans une forêt lointaine, nichée entre les montagnes enneigées, se dressait un arbre spécial, Le Sapin de Noël Éternel. On racontait que cet arbre, majestueux et resplendissant, ne perdait jamais ses aiguilles et restait vert tout au long de l'année. Sa magie résidait dans sa capacité à répandre l'esprit de Noël à travers les saisons.",
+      "secondPart": "Chaque année, les villageois se rassemblaient autour du Sapin de Noël Éternel pour célébrer la saison des fêtes. Ils décoraient ses branches avec des ornements étincelants et partageaient des histoires chaleureuses près de son tronc robuste. Le Sapin de Noël Éternel était un symbole de continuité, de renouveau et de la perpétuité de la magie de Noël. Les enfants du village apprenaient que, tout comme le Sapin de Noël Éternel, la magie de Noël pouvait rester vivante dans leur cœur tout au long de l'année.",
+      "thirdPart": "Ainsi, cette histoire devint une source d'inspiration pour tous ceux qui croyaient en la pérennité de l'esprit de Noël, un rappel que l'amour, la paix et la générosité pouvaient briller éternellement."
+    },
+    "imgSrc": "/christmas-tree.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 21,
+    "title": "La Chanson des Étoiles",
+    "tale": {
+      "firstPart": "Chaque année, au sommet de la montagne enchantée, les étoiles se rassemblaient pour créer une mélodie céleste connue sous le nom de La Chanson des Étoiles. Ce spectacle magique n'était visible que pendant la nuit de Noël.",
+      "secondPart": "Les étoiles, scintillant de manière synchronisée, formaient une partition céleste et chantaient une chanson douce qui se répandait dans toute la vallée. Les habitants du village savaient que La Chanson des Étoiles était un cadeau divin, une symphonie céleste qui apportait paix et sérénité.",
+      "thirdPart": "Les enfants écoutaient, émerveillés, depuis leurs fenêtres, tandis que les adultes se rassemblaient en plein air pour partager ce moment sacré. La Chanson des Étoiles rappelait à tous la beauté de la nature, la magie de Noël, et la connexion intemporelle entre le ciel et la terre."
+    },
+    "imgSrc": "/snowflakes.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 22,
+    "title": "Le Cadeau Oublié",
+    "tale": {
+      "firstPart": "Au cœur du village, une petite histoire d'humanité et de générosité était contée chaque année : Le Cadeau Oublié. C'était l'histoire d'un cadeau oublié au pied d'un sapin, un paquet modeste qui n'avait pas trouvé son destinataire. Ce cadeau, enveloppé dans un papier scintillant, contenait quelque chose de spécial : un message d'amour et de bienveillance.",
+      "secondPart": "Chaque année, les habitants du village se relayèrent pour prendre soin de ce cadeau oublié. Ils l'ouvraient avec précaution, lisaient le message d'origine, et y ajoutaient une nouvelle note de gentillesse. Le Cadeau Oublié devint un symbole de l'esprit de Noël, rappelant que la véritable magie de la saison résidait dans le partage, la compassion et le don désintéressé. Les enfants, en grandissant, apprenaient de cette histoire simple mais profonde, réalisant que les cadeaux les plus précieux n'étaient pas toujours emballés dans du papier brillant, mais étaient des actes d'amour et d'attention que l'on offre aux autres.",
+      "thirdPart": "Ainsi, Le Cadeau Oublié devint une leçon de vie inscrite dans la tradition du village, un héritage de chaleur humaine transmis de génération en génération."
+    },
+    "imgSrc": "/christmas-tree.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 23,
+    "title": "La Luge Magique",
+    "tale": {
+      "firstPart": "Au cœur d'un village enneigé, une tradition magique faisait battre le cœur des enfants pendant la saison hivernale : La Luge Magique. Chaque année, à la veille de Noël, une luge spéciale apparaissait mystérieusement devant la porte de la maison la plus joyeuse du village.",
+      "secondPart": "Cette luge n'était pas ordinaire ; elle était enchantée et pouvait voler dans les cieux étoilés. Les enfants chanceux qui découvraient La Luge Magique étaient emportés dans un voyage nocturne à travers le ciel, guidés par des rennes étincelants. Ils survolaient des paysages enneigés, écoutaient les échos enchantés des clochettes des rennes, et s'immergeaient dans la magie pure de Noël. La Luge Magique laissait derrière elle une traînée d'étoiles scintillantes et revenait au petit matin, prête à offrir à un autre enfant une aventure inoubliable.",
+      "thirdPart": "Cette tradition magique devint le symbole de la joie, de l'aventure et de la croyance en l'inattendu, rappelant aux enfants du village que la magie de Noël pouvait prendre les formes les plus merveilleuses."
+    },
+    "imgSrc": "/magic-sled.jpg",
+    "imgAlt": ""
+  },
+  {
+    "id": 24,
+    "title": "Le Joyeux Noël des Animaux de la Ferme",
+    "tale": {
+      "firstPart": "Dans une ferme pittoresque entourée de champs enneigés, une tradition chaleureuse marquait le début de la saison des fêtes : Le Joyeux Noël des Animaux de la Ferme. Chaque année, les habitants de la ferme s'activaient pour créer un véritable festin de Noël pour les animaux.",
+      "secondPart": "Des décorations rustiques ornaient les enclos, et une mélodie joyeuse flottait dans l'air. Les animaux de la ferme, des poules aux chevaux, participaient à cette célébration unique. Les canards gloussaient en se parant de guirlandes, les moutons balançaient la tête au rythme de chants joyeux, et même les cochons semblaient sourire d'excitation.",
+      "thirdPart": "La Journée de Noël de la Ferme était une ode à la gratitude et à la communauté, rappelant aux habitants que chaque être, qu'il ait des plumes, des poils ou des sabots, méritait d'être inclus dans la célébration de la saison des fêtes."
+    },
+    "imgSrc": "/farm-animals.jpg",
+    "imgAlt": ""
+  }
 ]

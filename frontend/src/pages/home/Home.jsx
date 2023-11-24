@@ -7,6 +7,7 @@ import Snow from "../../components/Snow";
 import Smoke from "../../components/Smoke/Smoke";
 
 function Home() {
+
   return (
     <>
       <Smoke />
@@ -24,8 +25,10 @@ function Home() {
         <div className="HouseHome">
           <HouseHome />
         </div>
+        <audio autoPlay={true} controls src="/src/sound/musicnoel.mp3"></audio>;
       </main>
     </>
   );
 }
+
 export default Home;
