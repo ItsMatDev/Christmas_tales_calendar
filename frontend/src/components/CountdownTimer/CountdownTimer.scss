@@ -1,4 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/christmas-story');
+//VARIABLES
+//FONT
+ $font-title: 'Christmas Story', sans-serif;
+//COLORS
+$bordeaux:#7d0214;
+
 .groupTimer {
+  font-family: $font-title;
   display: flex;
   flex-direction: column;
   justify-content: center;

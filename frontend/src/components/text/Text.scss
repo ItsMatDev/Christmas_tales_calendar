@@ -1,17 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/enchanted-land');
+
+//VARIABLES
+// FONT
+$font-tales:'Enchanted Land', sans-serif;
+
 .pageconte {
   position: absolute;
-  left: 20vw;
+  left: 19vw;
   top: 15vh;
-  width: 25vw;
+  width: 30vw;
   height: 80vh;
 }
 
 .pageconte__titre {
   color: brown;
   text-align: center;
+  font-family: $font-tales;
 }
 .pageconte__text {
   text-align: center;
-  line-height: 1, 5em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1vw;
+  line-height: 1em;
+  font-family: $font-tales;
 }
