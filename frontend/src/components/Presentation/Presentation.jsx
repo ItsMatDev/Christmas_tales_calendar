@@ -1,7 +1,8 @@
 import "./Presentation.scss";
 
 function Presentation () {
-  return <p className="textPresentation">Bienvenue à toi cher enfant, découvre ton calendrier de l'Avent. Clique vite sur la maison afin de découvrir chaques jours un conte de Noël.</p>
+  return  <p className="textPresentation"> Ho, Ho, Ho..., Bonjour les enfants! Venez découvrir chaque jour un nouveau conte de Noël en ma compagnie. Cliquez vite sur la maison !</p>
+  
 }
 
 export default Presentation;
