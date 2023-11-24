@@ -1,17 +1,29 @@
-
 .border__img {
-  position: absolute;
-  top: 15.5vh;
-  right: 7.5vw;
-  width: 44vw;
-  height: 69.5vh;
-  z-index: 1;
+	position: absolute;
+	top: 15.5vh;
+	right: 7.5vw;
+	width: 44vw;
+	height: 69.5vh;
+	z-index: 1;
 }
+
+@keyframes chargement {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.picture {
+	animation: chargement linear forwards 2s;
+}
+
 .pictureconte {
-  top: 30vh;
-  right: 16vw;
-  opacity: 0.9;
-  width: 25vw;
-  height: 40vh;
-  position: absolute;
+	top: 30vh;
+	right: 16vw;
+	opacity: 0.9;
+	width: 25vw;
+	height: 40vh;
+	position: absolute;
 }

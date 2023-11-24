@@ -5,10 +5,11 @@ import PictureTales from "../../components/picturetales/PictureTales";
 import Candle from "../../components/Candle/Candle";
 import pictureCandle from "../../assets/candle.png";
 import "./Tales.scss";
+import noel from "../../assets/perenoel.png";
 
 function Tales() {
-  const { id } = useParams();
-  const [Calendarcase, setCalendarcase] = useState();
+	const { id } = useParams();
+	const [Calendarcase, setCalendarcase] = useState();
 
   useEffect(() => {
     fetch("http://localhost:5010/tales")
@@ -16,7 +17,16 @@ function Tales() {
       .then((data) => setCalendarcase(data));
   }, []);
 
-  const calendarc = (Calendarcase || []).find((el) => el.id === parseInt(id, 10));
+	useEffect(() => {
+		document.body.style.overflow = "hidden";
+		return () => {
+			document.body.style.overflow = "visible";
+		};
+	}, []);
+
+	const calendarc = (Calendarcase || []).find(
+		(el) => el.id === parseInt(id, 10)
+	);
 
   return (
     <>
@@ -24,6 +34,7 @@ function Tales() {
         <main className="tales__page">
           <Text content={calendarc} />
           <PictureTales content={calendarc} />
+          <Candle />
           <img className="bodyCandle" src={pictureCandle} alt="le corp d'une bougie"/>
           <Link to="/Calendar">
             <button className="returnToMain">X</button>

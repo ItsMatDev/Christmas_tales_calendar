@@ -9,12 +9,12 @@ function Calendar() {
     <main className="calendarMain">
       <Stars />
       <Lightrope />
-      <Calendarcase />
-      <Link to="/">
-        <button className="returnToMain">X</button>
-      </Link>
-    </main>
-  );
+			<Calendarcase />
+			<Link to="/">
+				<button className="returnToMain">X</button>
+			</Link>
+		</main>
+	);
 }
 
 export default Calendar;
