@@ -1,4 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/anek-tamil');               
+//VARIABLES
+//FONT
+ $font-text: 'Anek Tamil', sans-serif;
+
 .textPresentation {
+  font-family: $font-text;
   display: flex;
   justify-content: center;
   align-items: center;
