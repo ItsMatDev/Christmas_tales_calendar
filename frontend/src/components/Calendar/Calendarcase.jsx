@@ -22,27 +22,6 @@ function Calendarcase() {
   };
 
   return (
-<<<<<<< Updated upstream
-    <div className="parent">
-      {Calendarcase &&
-        Calendarcase.map((calendarcas) => {
-          const indiceAleatoire = genererIndiceAleatoire();
-
-          return (
-            <>
-              <section
-                key={calendarcas.id}
-                className={calendarcas.Name}
-                style={{ order: indiceAleatoire }}>
-                <Link to={`/Tales/${calendarcas.id}`}>
-                  <p>{calendarcas.id}</p>
-                </Link>
-              </section>
-            </>
-          );
-        })}
-    </div>
-=======
     <>
       <img className="testfloc" src="https://usagif.com/wp-content/uploads/gif/snwflks-29.gif" alt="" />
       <img className="testfloc1" src="https://usagif.com/wp-content/uploads/gif/snwflks-29.gif" alt="" />
@@ -74,7 +53,6 @@ function Calendarcase() {
           })}
       </div>
     </>
->>>>>>> Stashed changes
   );
 }
 

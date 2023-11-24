@@ -14,7 +14,7 @@
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 div {
@@ -29,7 +29,9 @@ div {
     align-items: center;
     box-shadow: 0px 1px 4px 1px #000000;
     p {
-      color: white;
+      color: rgb(242, 225, 43);
+      font-size: 35px;
+      text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
     }
   }
 }
@@ -108,8 +110,6 @@ div {
 }
 .test25 {
   grid-area: 5 / 5 / 6 / 6;
-<<<<<<< Updated upstream
-=======
 }
 
 @keyframes test {
@@ -217,5 +217,4 @@ img.testfloc10 {
   right: 9.5vw;
   top: 18vh;
   width: 2vw;
->>>>>>> Stashed changes
 }
