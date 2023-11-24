@@ -29,14 +29,18 @@ body {
 }
 
 .container {
-  width: 60px;
-  height: 60px;
-  left: 188.5vh;
-  top: 29vw;
+  width: 2vw;
+  right: 7.2vw;
+  bottom: 31vh;
   z-index: 80;
   position: absolute;
   transform-origin: center bottom;
-  animation: bougie linear forwards 2s 1ms, flicker ease-in infinite alternate 3ms;
+  animation-name: flicker;
+  animation-duration: 3ms;
+  animation-delay: 200ms;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .flame {
