@@ -14,18 +14,20 @@ function Tales() {
       .then((data) => setCalendarcase(data));
   }, []);
 
-  const calendarc = (Calendarcase || []).find(
-    (el) => el.id === parseInt(id, 10)
-  );
+  const calendarc = (Calendarcase || []).find((el) => el.id === parseInt(id, 10));
 
   return (
-    <main className="tales__page">
-      <Text />
-      <PictureTales />
-      <Link to="/Calendar">
-        <button className="returnToMain">X</button>
-      </Link>
-    </main>
+    <>
+      {calendarc && (
+        <main className="tales__page">
+          <Text content={calendarc} />
+          <PictureTales content={calendarc} />
+          <Link to="/Calendar">
+            <button className="returnToMain">X</button>
+          </Link>
+        </main>
+      )}
+    </>
   );
 }
 
