@@ -7,8 +7,8 @@ import Stars from "../../components/Stars/Stars";
 function Calendar() {
 	return (
 		<main className="calendarMain">
-			<p className="titrelivre">hackathon</p>
-			<p className="titrelivre2">En avent Noël</p>
+			<p className="titrelivre">Hackathon</p>
+			<p className="titrelivre2">En Avent Noël</p>
 			<Stars />
 			<Lightrope />
 			<Calendarcase />
