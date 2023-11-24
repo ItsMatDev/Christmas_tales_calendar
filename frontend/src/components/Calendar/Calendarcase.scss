@@ -15,31 +15,28 @@ $bordeaux: #7d0214;
 }
 
 a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
+	text-decoration: none;
+	color: rgb(255, 255, 255);
 }
 
 div {
-  section {
-    opacity: 0.9;
-    border: 2px dotted grey;
-    border-style: dashed;
-    width: 12vw;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 1px 4px 1px #000000;
-    p {
-      color: rgb(242, 225, 43);
-      font-size: 40px;
-      text-shadow:
-        -1px -1px 0 $bordeaux,
-        1px -1px 0 $bordeaux,
-        -1px 1px 0 $bordeaux,
-        1px 1px 0 $bordeaux;
-    }
-  }
+	section {
+		opacity: 0.9;
+		border: 2px dotted grey;
+		border-style: dashed;
+		width: 12vw;
+		height: 15vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		box-shadow: 0px 1px 4px 1px #000000;
+		p {
+			color: rgb(242, 225, 43);
+			font-size: 40px;
+			text-shadow: -1px -1px 0 $bordeaux, 1px -1px 0 $bordeaux,
+				-1px 1px 0 $bordeaux, 1px 1px 0 $bordeaux;
+		}
+	}
 }
 
 .test1 {
@@ -115,7 +112,7 @@ div {
 	grid-area: 5 / 4 / 6 / 5;
 }
 .test25 {
-  grid-area: 5 / 5 / 6 / 6;
+	grid-area: 5 / 5 / 6 / 6;
 }
 
 @keyframes test {
@@ -127,16 +124,16 @@ div {
 	}
 }
 
-.open:hover {
-	animation: test linear forwards 1s;
-	transform: skew(-27deg, 0deg);
-	margin-left: -4vw;
-	background-color: #eec666;
-	width: 12vw;
-	background-color: gold;
-	background-size: cover;
-	background-position: top;
-}
+// .open:hover {
+// 	animation: test linear forwards 1s;
+// 	transform: skew(-27deg, 0deg);
+// 	margin-left: -4vw;
+// 	background-color: #eec666;
+// 	width: 12vw;
+// 	background-color: gold;
+// 	background-size: cover;
+// 	background-position: top;
+// }
 
 img.testfloc {
 	position: absolute;
@@ -211,16 +208,16 @@ img.testfloc8 {
 }
 
 img.testfloc9 {
-  position: absolute;
-  height: 7vh;
-  right: 9vw;
-  top: 8.5vh;
-  width: 2.5vw;
+	position: absolute;
+	height: 7vh;
+	right: 9vw;
+	top: 8.5vh;
+	width: 2.5vw;
 }
 img.testfloc10 {
-  position: absolute;
-  height: 6vh;
-  right: 9.5vw;
-  top: 18vh;
-  width: 2vw;
+	position: absolute;
+	height: 6vh;
+	right: 9.5vw;
+	top: 18vh;
+	width: 2vw;
 }
