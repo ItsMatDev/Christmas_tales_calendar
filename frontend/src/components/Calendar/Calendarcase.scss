@@ -108,4 +108,114 @@ div {
 }
 .test25 {
   grid-area: 5 / 5 / 6 / 6;
+<<<<<<< Updated upstream
+=======
+}
+
+@keyframes test {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.open:hover {
+  animation: test linear forwards 1s;
+  transform: skew(-27deg, 0deg);
+  margin-left: -4vw;
+  background-color: #eec666;
+  width: 12vw;
+  background-color: gold;
+  background-size: cover;
+  background-position: top;
+}
+
+img.testfloc {
+  position: absolute;
+  height: 7vh;
+  right: 13vw;
+  top: 9.5vh;
+  width: 4vw;
+}
+
+img.testfloc1 {
+  position: absolute;
+  height: 13vh;
+  right: 13vw;
+  top: 20vh;
+  width: 4vw;
+}
+
+img.testfloc2 {
+  position: absolute;
+  height: 13vh;
+  right: 12vw;
+  top: 36vh;
+  width: 5vw;
+}
+
+img.testfloc3 {
+  position: absolute;
+  height: 7vh;
+  right: 26vw;
+  top: 12vh;
+  width: 4vw;
+}
+
+img.testfloc4 {
+  position: absolute;
+  right: 21vw;
+  height: 7vh;
+  width: 4.5vw;
+  top: 11vh;
+}
+
+img.testfloc5 {
+  position: absolute;
+  height: 13vh;
+  right: 21vw;
+  top: 21vh;
+  width: 4.3vw;
+}
+
+img.testfloc6 {
+  position: absolute;
+  height: 12vh;
+  right: 26vw;
+  top: 22vh;
+  width: 4vw;
+}
+
+img.testfloc7 {
+  position: absolute;
+  height: 11vh;
+  right: 21vw;
+  top: 37vh;
+  width: 5vw;
+}
+
+img.testfloc8 {
+  position: absolute;
+  height: 9vh;
+  right: 26vw;
+  top: 37vh;
+  width: 4vw;
+}
+
+img.testfloc9 {
+  position: absolute;
+  height: 7vh;
+  right: 9vw;
+  top: 8.5vh;
+  width: 2.5vw;
+}
+img.testfloc10 {
+  position: absolute;
+  height: 6vh;
+  right: 9.5vw;
+  top: 18vh;
+  width: 2vw;
+>>>>>>> Stashed changes
 }

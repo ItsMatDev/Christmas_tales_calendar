@@ -22,6 +22,7 @@ function Calendarcase() {
   };
 
   return (
+<<<<<<< Updated upstream
     <div className="parent">
       {Calendarcase &&
         Calendarcase.map((calendarcas) => {
@@ -41,6 +42,39 @@ function Calendarcase() {
           );
         })}
     </div>
+=======
+    <>
+      <img className="testfloc" src="https://usagif.com/wp-content/uploads/gif/snwflks-29.gif" alt="" />
+      <img className="testfloc1" src="https://usagif.com/wp-content/uploads/gif/snwflks-29.gif" alt="" />
+      <img className="testfloc2" src="https://usagif.com/wp-content/uploads/gif/snwflks-29.gif" alt="" />
+      <img className="testfloc3" src="https://usagif.com/wp-content/uploads/gif/snwflks-29.gif" alt="" />
+      <img className="testfloc4" src="https://usagif.com/wp-content/uploads/gif/snwflks-29.gif" alt="" />
+      <img className="testfloc5" src="https://usagif.com/wp-content/uploads/gif/snwflks-29.gif" alt="" />
+      <img className="testfloc6" src="https://usagif.com/wp-content/uploads/gif/snwflks-29.gif" alt="" />
+      <img className="testfloc7" src="https://usagif.com/wp-content/uploads/gif/snwflks-29.gif" alt="" />
+      <img className="testfloc8" src="https://usagif.com/wp-content/uploads/gif/snwflks-29.gif" alt="" />
+      <img className="testfloc9" src="https://usagif.com/wp-content/uploads/gif/snwflks-29.gif" alt="" />
+      <img className="testfloc10" src="https://usagif.com/wp-content/uploads/gif/snwflks-29.gif" alt="" />
+      <div className="parent">
+        {Calendarcase &&
+          Calendarcase.map((calendarcas) => {
+            const indiceAleatoire = genererIndiceAleatoire();
+
+            return (
+              <>
+                <section key={calendarcas.id} className={calendarcas.Name} style={{ order: indiceAleatoire }}>
+                  <section key={calendarcas.id} className="open">
+                    <Link to={`/Tales/${calendarcas.id}`}>
+                      <p>{calendarcas.id}</p>
+                    </Link>
+                  </section>
+                </section>
+              </>
+            );
+          })}
+      </div>
+    </>
+>>>>>>> Stashed changes
   );
 }
 
