@@ -1,4 +1,14 @@
+@keyframes candle {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 .bodyCandle {
+	animation: candle linear forwards 2s;
 	position: absolute;
 	width: 22vw;
 	height: 37vh;
@@ -9,20 +19,38 @@ body {
 	background: black;
 }
 
+@keyframes bougie {
+	0% {
+		opacity: 0;
+		transform-origin: center bottom;
+		animation-name: flicker;
+		animation-duration: 3ms;
+		animation-timing-function: ease-in;
+		animation-delay: 1ms;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+
+	100% {
+		opacity: 1;
+		transform-origin: center bottom;
+		animation-delay: 1ms;
+		animation-name: flicker;
+		animation-duration: 3ms;
+		animation-timing-function: ease-in;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+}
+
 .container {
+	animation: bougie linear forwards 2s;
 	width: 60px;
 	height: 60px;
 	left: 188.5vh;
 	top: 29vw;
 	z-index: 80;
 	position: absolute;
-	transform-origin: center bottom;
-	animation-name: flicker;
-	animation-duration: 3ms;
-	animation-delay: 200ms;
-	animation-timing-function: ease-in;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
 }
 .flame {
 	bottom: 0;

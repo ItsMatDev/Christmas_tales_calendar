@@ -25,6 +25,7 @@ $font-tales: "squac";
 }
 
 .pageconte__titre {
+	animation: titre linear forwards 2s;
 	color: black;
 	text-align: center;
 	text-shadow: -1px -1px 0 $bordeaux, 1px -1px 0 $bordeaux,
@@ -48,6 +49,15 @@ $font-tales: "squac";
 		}
 	}
 
+	@keyframes titre {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
 	@keyframes nextpage2 {
 		0% {
 			opacity: 0;
@@ -56,6 +66,16 @@ $font-tales: "squac";
 			opacity: 1;
 		}
 	}
+
+	@keyframes partie {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
 	.otherLetter {
 		font-family: "Gabrielle";
 	}
@@ -87,6 +107,7 @@ img.nextpagemoins {
 }
 
 p.partietext {
+	animation: partie linear forwards 2s;
 	position: absolute;
 	bottom: 4vh;
 	left: 12vw;
