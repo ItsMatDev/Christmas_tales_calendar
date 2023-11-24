@@ -18,7 +18,7 @@ body {
   grid-area: 1 / 1 / 3 / 10;
 }
 .CountdownTimer {
-  grid-area:7 / 3 / 9 / 5; 
+  grid-area: 7 / 3 / 9 / 5;
 }
 .Presentation {
   grid-area: 4 / 3 / 6 / 5;
@@ -33,7 +33,7 @@ audio {
   pointer-events: none;
 }
 .hi__santa {
-  bottom: -3vh;
+  bottom: 0vh;
   height: 65vh;
   position: absolute;
 }

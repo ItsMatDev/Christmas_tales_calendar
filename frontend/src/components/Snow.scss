@@ -1,5 +1,9 @@
 @use "sass:math";
 
+body {
+  overflow-y: hidden;
+}
+
 .backgroundSnow {
   overflow: hidden;
 }
@@ -20,7 +24,7 @@
   filter: drop-shadow(0 0 10px white);
   filter: drop-shadow(0 0 10px white);
   @for $i from 1 through $total {
-    $random-x: random(1000000) * 0.0001vw;
+    $random-x: random(1000000) * 0.00009vw;
     $random-offset: random_range(-100000, 100000) * 0.0001vw;
     $random-x-end: $random-x + $random-offset;
     $random-x-end-yoyo: $random-x + math.div($random-offset, 2);
@@ -42,7 +46,7 @@
       }
 
       to {
-        transform: translate($random-x-end-yoyo, 100vh) scale($random-scale);
+        transform: translate($random-x-end-yoyo, 95vh) scale($random-scale);
       }
     }
   }
