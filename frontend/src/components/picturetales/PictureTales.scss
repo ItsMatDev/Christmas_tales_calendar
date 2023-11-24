@@ -10,12 +10,9 @@
 @keyframes chargement {
 	0% {
 		opacity: 0;
-		transform: translate(30vw, 50vh);
-		transform: rotate(180deg) translateY(15.5vw);
 	}
 	100% {
 		opacity: 1;
-		transform: translate(0vw, 0vh);
 	}
 }
 .picture {
