@@ -38,10 +38,11 @@ const CountdownTimer = () => {
 
   return (
     <div className="groupTimer">
-      <h1>Noël arrive bientôt dans ...</h1>
+      <h1>Plus que</h1>
       <div>
-        <div className="dodo">{timeRemaining.days} Dodos</div>
+        <div className="dodo">{timeRemaining.days} Dodos </div>
       </div>
+      <h1> avant Noël</h1>
     </div>
   );
 };
