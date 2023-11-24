@@ -1,8 +1,7 @@
 import "./PictureTales.scss";
-import MyImg from "../../assets/houseHome.png";
 
-function PictureTales() {
-  return <img className="pictureconte" src={MyImg} alt="" />;
+function PictureTales({ content }) {
+  return <img className="pictureconte" src={`http://localhost:5010${content.imgSrc}`} alt="" />;
 }
 
 export default PictureTales;
