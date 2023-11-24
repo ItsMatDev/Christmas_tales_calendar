@@ -1,7 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/christmas-story');
-
+//VARIABLES
+//FONT
  $font-title: 'Christmas Story', sans-serif;
-
+//COLORS
+$bordeaux:#7d0214;
 
 .mainTitle {
   font-family: $font-title;
@@ -13,8 +15,12 @@
   margin: 0;
   padding: 0;
   border-radius: 8rem;
-  font-size: 7.5rem;
-  text-shadow: 7px 6px 8px rgba(144, 157, 3, 0.879);
-  opacity: 85%;
+  font-size: 10rem;
+  text-shadow:
+      -2px -2px 0 $bordeaux,
+      2px -2px 0 $bordeaux,
+      -2px 2px 0 $bordeaux,
+      2px 2px 0 $bordeaux;
   margin-top: 5rem;
+  
   }
