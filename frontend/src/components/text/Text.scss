@@ -98,17 +98,29 @@ $darkGreen: #354744;
 .nextpage {
   position: absolute;
   height: 5vh;
+<<<<<<< Updated upstream
   bottom: 6vh;
   left: 19vw;
+=======
+  bottom: 5vh;
+  left: 30vw;
+>>>>>>> Stashed changes
   cursor: pointer;
 }
 
 img.nextpagemoins {
   height: 5vh;
+<<<<<<< Updated upstream
   transform: scaleX(-1);
   position: absolute;
   bottom: 6vh;
   left: 7vw;
+=======
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 5vh;
+  left: -4vw;
+>>>>>>> Stashed changes
   cursor: pointer;
 }
 
@@ -118,6 +130,7 @@ p.partietext {
   bottom: 4vh;
   left: 12vw;
   font-weight: bold;
+<<<<<<< Updated upstream
   font-size: 1.4rem;
   font-family: "Gabrielle";
   text-shadow: -1px -1px 0 $gold, 1px -1px 0 $gold, -1px 1px 0 $gold, 1px 1px 0 $gold;
@@ -129,4 +142,15 @@ span.otherLetter {
 
 p.pageconte__text {
   animation: nextpage linear forwards 3s;
+=======
+  font-size: 1.3rem;
+}
+
+span.otherLetter {
+  animation: nextpage2 linear forwards 2s;
+}
+
+p.pageconte__text {
+  animation: nextpage linear forwards 2s;
+>>>>>>> Stashed changes
 }
