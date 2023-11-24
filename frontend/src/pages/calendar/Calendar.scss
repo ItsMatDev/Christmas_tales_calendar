@@ -1,27 +1,45 @@
 body {
-  margin: 0;
+	margin: 0;
 }
 h1 {
-  margin: 0;
+	margin: 0;
 }
 .calendarMain {
-  background-image: url("../../assets/santaClausBackground.png");
-  background-size: 100% 100%;
-  height: 95vh;
-  padding-top: 3vh;
-  padding-bottom: 2vh;
+	background-image: url("../../assets/santaClausBackground.png");
+	background-size: 100% 100%;
+	height: 95vh;
+	padding-top: 3vh;
+	padding-bottom: 2vh;
+}
+
+.titrelivre {
+	position: absolute;
+	font-size: 1.5vw;
+	transform: skew(-37deg, 10deg);
+	top: 42vh;
+	color: #c29936;
+	left: 42vw;
+}
+
+.titrelivre2 {
+	position: absolute;
+	font-size: 1.5vw;
+	transform: skew(-37deg, 10deg);
+	top: 45vh;
+	color: #c29936;
+	left: 40vw;
 }
 
 .returnToMain {
-  font-size: 1.25vw;
-  width: 2.5vw;
-  height: 5vh;
-  border: 2px solid #eec666;
-  border-radius: 10px;
-  color: #eec666;
-  position: absolute;
-  top: 6vh;
-  right: 2vw;
-  background: #7d0214;
-  cursor: pointer;
+	font-size: 1.25vw;
+	width: 2.5vw;
+	height: 5vh;
+	border: 2px solid #eec666;
+	border-radius: 10px;
+	color: #eec666;
+	position: absolute;
+	top: 6vh;
+	right: 2vw;
+	background: #7d0214;
+	cursor: pointer;
 }

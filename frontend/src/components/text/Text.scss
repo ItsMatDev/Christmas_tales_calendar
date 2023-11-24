@@ -1,120 +1,147 @@
 @import url("https://fonts.cdnfonts.com/css/enchanted-land");
-@import url('https://fonts.cdnfonts.com/css/christmas-story');
+@import url("https://fonts.cdnfonts.com/css/christmas-story");
 //VARIABLES
 //FONT
- $font-title: 'Christmas Story', sans-serif;
- $font-tales: "squac";
+$font-title: "Christmas Story", sans-serif;
+$font-tales: "squac";
 
 @font-face {
-	font-family: "squac";
-	src: url("../../fonts/squac.TTF");
+  font-family: "squac";
+  src: url("../../fonts/squac.TTF");
 }
 @font-face {
-	font-family: "Gabrielle";
-	src: url("../../fonts/Gabrielle.TTF");
+  font-family: "Gabrielle";
+  src: url("../../fonts/Gabrielle.TTF");
 }
 @font-face {
-	font-family: "CalligraphyPen";
-	src: url("../../fonts/Calligraphy-Pen.TTF");
+  font-family: "CalligraphyPen";
+  src: url("../../fonts/Calligraphy-Pen.TTF");
 }
 //COLOR
 $bordeaux: #7d0214;
-$gold:#eec666;
+$gold: #eec666;
 $darkGreen: #354744;
 
 .pageconte {
-	position: absolute;
-	left: 19vw;
-	top: 14vh;
-	width: 30vw;
-	height: 80vh;
+  position: absolute;
+  left: 19vw;
+  top: 14vh;
+  width: 30vw;
+  height: 80vh;
 }
 
 .pageconte__titre {
+<<<<<<< Updated upstream
   font-family: $font-title;
-  font-size: 2.5rem;
+  font-size: 2.7vw;
   color: $bordeaux;
   text-align: center;
   text-shadow: -1px -1px 0 $gold, 1px -1px 0 $gold, -1px 1px 0 $gold, 1px 1px 0 $gold;
+  animation: titre linear forwards 2s;
+=======
+	font-family: $font-title;
+	font-size: 2.5rem;
+	color: $bordeaux;
+	text-align: center;
+	text-shadow: -1px -1px 0 $gold, 1px -1px 0 $gold, -1px 1px 0 $gold,
+		1px 1px 0 $gold;
 	animation: titre linear forwards 2s;
+>>>>>>> Stashed changes
 }
 
 .pageconte__text {
-	margin-top: 3vh;
-	.firstLetter {
-		font-family: $font-tales;
-		font-size: 4.5vw;
-		font-weight: 100;
-		line-height: 10vh;
-	}
-	@keyframes nextpage {
-		0% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 1;
-		}
-	}
+  margin-top: 2vh;
+  .firstLetter {
+    font-family: $font-tales;
+    font-size: 4vw;
+    font-weight: 100;
+    line-height: 10vh;
+  }
+  @keyframes nextpage {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
-	@keyframes titre {
-		0% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 1;
-		}
-	}
+  @keyframes titre {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
-	@keyframes nextpage2 {
-		0% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 1;
-		}
-	}
+  @keyframes nextpage2 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
-	@keyframes partie {
-		0% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 1;
-		}
-	}
+  @keyframes partie {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
-	.otherLetter {
-		font-family: "Gabrielle";
-	}
-	color: black;
-	text-align: center;
-	font-size: 1.65vw;
-	font-weight: 600;
-	line-height: 1em;
-	font-family: "Gabrielle";
-	text-shadow: -1px -1px 0 $bordeaux, 1px -1px 0 $bordeaux,
-		-1px 1px 0 $bordeaux, 1px 1px 0 $bordeaux;
+  .otherLetter {
+    font-family: "Gabrielle";
+  }
+  color: black;
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 600;
+  line-height: 1em;
+  font-family: "Gabrielle";
+  text-shadow: -1px -1px 0 $gold, 1px -1px 0 $gold, -1px 1px 0 $gold, 1px 1px 0 $gold;
 }
 
 .nextpage {
-	position: absolute;
-	height: 5vh;
-	bottom: 5vh;
-	left: 30vw;
-	cursor: pointer;
+  position: absolute;
+  height: 5vh;
+  bottom: 5vh;
+  left: 30vw;
+  cursor: pointer;
 }
 
 img.nextpagemoins {
-	height: 5vh;
-	transform: rotate(180deg);
-	position: absolute;
-	bottom: 5vh;
-	left: -4vw;
-	cursor: pointer;
+  height: 5vh;
+  transform: scaleX(-1);
+  position: absolute;
+  bottom: 6vh;
+  left: 7vw;
+  cursor: pointer;
 }
 
 p.partietext {
-	animation: partie linear forwards 2s;
+<<<<<<< Updated upstream
+  animation: partie linear forwards 2s;
+  position: absolute;
+  bottom: 4vh;
+  left: 12vw;
+  font-weight: bold;
+  font-size: 1.4rem;
+  font-family: "Gabrielle";
+  text-shadow: -1px -1px 0 $gold, 1px -1px 0 $gold, -1px 1px 0 $gold, 1px 1px 0 $gold;
+}
+
+span.otherLetter {
+  animation: nextpage2 linear forwards 3s;
+}
+
+p.pageconte__text {
+  animation: nextpage linear forwards 3s;
+=======
+	animation: partie linear forwards 3s;
 	position: absolute;
 	bottom: 4vh;
 	left: 12vw;
@@ -123,9 +150,10 @@ p.partietext {
 }
 
 span.otherLetter {
-	animation: nextpage2 linear forwards 2s;
+	animation: nextpage2 linear forwards 3s;
 }
 
 p.pageconte__text {
-	animation: nextpage linear forwards 2s;
+	animation: nextpage linear forwards 3s;
+>>>>>>> Stashed changes
 }
