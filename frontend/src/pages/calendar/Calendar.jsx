@@ -5,18 +5,19 @@ import Lightrope from "../../components/Lightrope/Lightrope";
 import Stars from "../../components/Stars/Stars";
 
 function Calendar() {
-	return (
-		<main className="calendarMain">
-			<p className="titrelivre">Hackathon</p>
-			<p className="titrelivre2">En Avent Noël</p>
-			<Stars />
-			<Lightrope />
-			<Calendarcase />
-			<Link to="/">
-				<button className="returnToMain">X</button>
-			</Link>
-		</main>
-	);
+  return (
+    <main className="calendarMain">
+      <p className="titrelivre">Hackathon</p>
+      <p className="titrelivre2">En Avent Noël</p>
+
+      <Stars />
+      <Lightrope />
+      <Calendarcase />
+      <Link to="/">
+        <button className="returnToMain">X</button>
+      </Link>
+    </main>
+  );
 }
 
 export default Calendar;

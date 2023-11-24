@@ -4,7 +4,6 @@ import arrow from "../../assets/arrow.svg";
 
 function Text({ content }) {
   const [nexttest, setNexttext] = useState(1);
-  const [sound, setSound] = useState(false);
   console.log(content);
   const handleClick = () => {
     setNexttext(nexttest + 1);
