@@ -24,6 +24,7 @@ function Tales() {
         <main className="tales__page">
           <Text content={calendarc} />
           <PictureTales content={calendarc} />
+          <Candle />
           <img className="bodyCandle" src={pictureCandle} alt="le corp d'une bougie"/>
           <Link to="/Calendar">
             <button className="returnToMain">X</button>
